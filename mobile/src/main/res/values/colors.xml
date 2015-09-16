@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--toolbar-->
+    <color name="m_colorPrimary">#689F38</color>
+    <color name="m_colorPrimaryDark">#3E5F22</color>
+    <color name="m_colorAccent">#F57C00</color>
+    <color name="m_colorWhite">#FFFFFF</color>
+
+    <!--slidingTabStrip-->
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="psts_background_tab_pressed_ripple">#AAFFFFFF</color>
+
+    <color name="green">#689F38</color>
+    <color name="greenDark">#3E5F22</color>
+    <color name="colorOrange">#EF6C00</color>
+    <color name="colorOrangeDark">#E65100</color>
+    <!--<color name="colorLight">#64ffffff</color>-->
+    <!--<color name="colorAccentLight">#20ffffff</color>-->
+    <!--<color name="colorDividers">#1e000000</color>-->
+    <!--<color name="colorText">#de000000</color>-->
+    <!--<color name="colorSecondaryText">#b2000000</color>-->
+    <!--<color name="colorDisableText">#4c000000</color>-->
+    <!--&lt;!&ndash; SignActivity Layout &ndash;&gt;-->
+    <!--<color name="colorSignUpBackground">#43A047</color>-->
+</resources>
