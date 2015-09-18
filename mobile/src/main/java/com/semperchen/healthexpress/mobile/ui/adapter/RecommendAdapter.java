@@ -38,9 +38,9 @@ public class RecommendAdapter extends RecyclerView.Adapter<RecommendAdapter.View
         textView.setText(info);
         //手动更改高度，不同位置的高度有所不同
         if(position%2==0){
-            textView.setHeight(200 + (position % 3) * 30);
+            textView.setHeight(300 + (position % 3) * 30);
         }else {
-            textView.setHeight(100 + (position % 3) * 10);
+            textView.setHeight(200 + (position % 3) * 10);
         }
         //textView.setHeight(200 + (position % 3) * 30);
     }
