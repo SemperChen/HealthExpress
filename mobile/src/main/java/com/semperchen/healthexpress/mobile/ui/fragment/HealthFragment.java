@@ -32,7 +32,7 @@ public class HealthFragment extends BaseFragment {
         mView=inflater.inflate(R.layout.fragment_health,container,false);
 
         initializeViews();
-        settingsToolbar(mView);
+        setupToolbar(mView);
 
         if(mViewPager != null){
             setupViewPager();
@@ -69,7 +69,7 @@ public class HealthFragment extends BaseFragment {
      * @param rootView 根视图
      */
     @Override
-    protected void settingsToolbar(View rootView) {
-        super.settingsToolbar(rootView);
+    protected void setupToolbar(View rootView) {
+        super.setupToolbar(rootView);
     }
 }

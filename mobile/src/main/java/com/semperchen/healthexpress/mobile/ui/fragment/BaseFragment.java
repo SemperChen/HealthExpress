@@ -12,7 +12,7 @@ import com.semperchen.healthexpress.mobile.R;
  */
 public class BaseFragment extends Fragment {
 
-    protected void settingsToolbar(View rootView) {
+    protected void setupToolbar(View rootView) {
 
         Toolbar toolbar = (Toolbar) rootView.findViewById(R.id.toolbar);
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);

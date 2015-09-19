@@ -2,7 +2,6 @@ package com.semperchen.healthexpress.mobile.ui.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,12 +26,12 @@ public class JokeFragment extends BaseFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         mView=inflater.inflate(R.layout.fragment_joke,container,false);
-        settingsToolbar(mView);
+        setupToolbar(mView);
         return mView;
     }
 
     @Override
-    protected void settingsToolbar(View rootView) {
-        super.settingsToolbar(rootView);
+    protected void setupToolbar(View rootView) {
+        super.setupToolbar(rootView);
     }
 }

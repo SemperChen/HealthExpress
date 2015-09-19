@@ -26,12 +26,12 @@ public class FavoritesFragment extends BaseFragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         mView=inflater.inflate(R.layout.fragment_favorutes,container,false);
-        settingsToolbar(mView);
+        setupToolbar(mView);
         return mView;
     }
 
     @Override
-    protected void settingsToolbar(View rootView) {
-        super.settingsToolbar(rootView);
+    protected void setupToolbar(View rootView) {
+        super.setupToolbar(rootView);
     }
 }
