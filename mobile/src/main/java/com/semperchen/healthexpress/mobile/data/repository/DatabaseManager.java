@@ -7,7 +7,6 @@ import com.j256.ormlite.android.apptools.OrmLiteSqliteOpenHelper;
 import com.j256.ormlite.support.ConnectionSource;
 import com.j256.ormlite.table.TableUtils;
 import com.semperchen.healthexpress.mobile.data.entity.News;
-import com.semperchen.healthexpress.mobile.data.entity.NewsData;
 
 import java.sql.SQLException;
 

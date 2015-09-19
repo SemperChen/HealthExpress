@@ -1,7 +1,6 @@
 package com.semperchen.healthexpress.mobile.data.entity;
 
 import com.google.gson.annotations.SerializedName;
-import com.j256.ormlite.field.DatabaseField;
 
 import java.io.Serializable;
 

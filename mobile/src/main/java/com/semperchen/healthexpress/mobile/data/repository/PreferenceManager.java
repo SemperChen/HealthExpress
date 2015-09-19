@@ -6,13 +6,11 @@ import android.content.SharedPreferences;
 
 public class PreferenceManager {
 
-
     private static final String TAG = "PreferenceManager";
     private static final boolean DEBUG = true;
     private static final String SHARE_PREFERENCE_NAME = "global.preference";
     private static PreferenceManager instance = null;
     private SharedPreferences preferences;
-
 
     private PreferenceManager(Context context) {
         this.preferences = context.getSharedPreferences(SHARE_PREFERENCE_NAME, Activity.MODE_PRIVATE);

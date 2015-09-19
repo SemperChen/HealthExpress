@@ -71,6 +71,5 @@ public class HealthFragment extends BaseFragment {
     @Override
     protected void settingsToolbar(View rootView) {
         super.settingsToolbar(rootView);
-        getActivity().setTitle(getString(R.string.app_name));
     }
 }

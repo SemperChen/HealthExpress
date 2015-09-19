@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity{
                                 break;
                         }
 
+                        setTitle(menuItem.getTitle());
                         menuItem.setChecked(true);
                         mDrawerLayout.closeDrawer(GravityCompat.START);
                         return true;
@@ -99,7 +100,7 @@ public class MainActivity extends AppCompatActivity{
      */
     private void fragmentTranslationReplace(Fragment fragment){
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.container,fragment,fragment.getClass().getSimpleName())
+                .replace(R.id.container,fragment)
                 .commit();
     }
 
