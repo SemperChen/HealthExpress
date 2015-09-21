@@ -18,7 +18,7 @@ public class NewsData {
     @SerializedName("pageNum")
     private int page;
     @SerializedName("results")
-    List<News> users=new ArrayList<News>();
+    List<News> users=new ArrayList<>();
 
     public int getPage() {
         return page;

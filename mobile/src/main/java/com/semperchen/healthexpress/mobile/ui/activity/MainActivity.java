@@ -83,13 +83,13 @@ public class MainActivity extends AppCompatActivity{
 
                         switch (menuItem.getItemId()){
                             case R.id.health:
-                                fragmentTranslationReplace(HealthFragment.getInstance());
+                                fragmentTranslationReplace(new HealthFragment());
                                 break;
                             case R.id.joke:
-                                fragmentTranslationReplace(JokeFragment.getInstance());
+                                fragmentTranslationReplace(new JokeFragment());
                                 break;
                             case R.id.favorites:
-                                fragmentTranslationReplace(FavoritesFragment.getInstance());
+                                fragmentTranslationReplace(new FavoritesFragment());
                                 break;
                         }
 

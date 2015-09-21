@@ -1,9 +1,5 @@
 package com.semperchen.healthexpress.mobile.data.entity;
 
-import com.google.gson.annotations.SerializedName;
-
-import java.io.Serializable;
-
 /**
  * <p></p>
  * <p/>
@@ -13,23 +9,21 @@ import java.io.Serializable;
  * @author SemperChen
  * @version 1.0-SNAPSHOT
  */
-public class News  implements Serializable{
+public class News {
     private int id;
-    @SerializedName("username")
-    private String name;
-    @SerializedName("imageUrl")
-    private String url;
-    @SerializedName("desc")
-    private String desc;
+    private String title;
+    private String category;
+    private int image;
+    private boolean isFavorite;
 
-    private NewsData newsData;
+    public News(){}
 
-    public NewsData getNewsData() {
-        return newsData;
-    }
-
-    public void setNewsData(NewsData newsData) {
-        this.newsData = newsData;
+    public News(int id, String title, String category, int image, boolean isFavorite) {
+        this.id = id;
+        this.title = title;
+        this.category = category;
+        this.image = image;
+        this.isFavorite = isFavorite;
     }
 
     public int getId() {
@@ -40,27 +34,35 @@ public class News  implements Serializable{
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getUrl() {
-        return url;
+    public String getCategory() {
+        return category;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
+    public void setCategory(String category) {
+        this.category = category;
     }
 
-    public String getDesc() {
-        return desc;
+    public int getImage() {
+        return image;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setImage(int image) {
+        this.image = image;
+    }
+
+    public boolean isFavorite() {
+        return isFavorite;
+    }
+
+    public void setIsFavorite(boolean isFavorite) {
+        this.isFavorite = isFavorite;
     }
 }

@@ -57,9 +57,9 @@ public class HealthFragment extends BaseFragment {
     private void setupViewPager() {
 
         HealthFragmentAdapter healthFragmentAdapter=new HealthFragmentAdapter(getChildFragmentManager());
-        healthFragmentAdapter.addFragment(RecommendFragment.getInstance(),getString(R.string.recommend));
-        healthFragmentAdapter.addFragment(CategoryFragment.getInstance(),getString(R.string.category));
-        healthFragmentAdapter.addFragment(TopicFragment.getInstance(),getString(R.string.topic));
+        healthFragmentAdapter.addFragment(new RecommendFragment(),getString(R.string.recommend));
+        healthFragmentAdapter.addFragment(new CategoryFragment(),getString(R.string.category));
+        healthFragmentAdapter.addFragment(new TopicFragment(),getString(R.string.topic));
         mViewPager.setAdapter(healthFragmentAdapter);
     }
 

@@ -49,7 +49,7 @@ public class RecommendFragment extends Fragment {
                 StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
-        mAdapter = new RecommendAdapter(items,getContext());
+        mAdapter = new RecommendAdapter(getContext());
         mRecyclerView.setAdapter(mAdapter);
     }
 }

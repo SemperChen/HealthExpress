@@ -38,7 +38,7 @@
                                 android:id="@+id/category_tv"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:textColor="@color/yellow"
+                                android:textColor="@android:color/holo_green_light"
                                 android:text="养生"/>
 
                         <TextView
