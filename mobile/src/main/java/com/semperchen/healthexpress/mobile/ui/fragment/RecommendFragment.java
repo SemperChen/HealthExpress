@@ -48,10 +48,7 @@ public class RecommendFragment extends Fragment {
                 spanCount,
                 StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(mLayoutManager);
-        //构建一个临时数据源
-        for (int i = 0; i < 40; i++) {
-            items.add("i:" + i);
-        }
+
         mAdapter = new RecommendAdapter(items,getContext());
         mRecyclerView.setAdapter(mAdapter);
     }

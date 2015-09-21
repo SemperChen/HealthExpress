@@ -64,7 +64,7 @@ public class HealthFragment extends BaseFragment {
     }
 
     /**
-     *设置actionbar
+     *设置toolbar
      *
      * @param rootView 根视图
      */

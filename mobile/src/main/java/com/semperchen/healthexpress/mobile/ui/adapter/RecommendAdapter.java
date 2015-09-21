@@ -32,22 +32,12 @@ public class RecommendAdapter extends RecyclerView.Adapter<RecommendAdapter.View
 
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int position) {
-        String info = items.get(position);
-        View view = viewHolder.itemView;
-        TextView textView = (TextView) view.findViewById(R.id.info_text);
-        textView.setText(info);
-        //手动更改高度，不同位置的高度有所不同
-        if(position%2==0){
-            textView.setHeight(300 + (position % 3) * 30);
-        }else {
-            textView.setHeight(200 + (position % 3) * 10);
-        }
-        //textView.setHeight(200 + (position % 3) * 30);
+
     }
 
     @Override
     public int getItemCount() {
-        return items.size();
+        return 20;
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder{
