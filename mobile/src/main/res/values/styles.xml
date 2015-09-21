@@ -10,14 +10,22 @@
         <item name="android:windowBackground">@color/theme_colorWhite</item>
     </style>
 
-    <style name="CardView.RecommendStyle">
+    <style name="CardView.RecommendStyle" parent="">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">@dimen/recommend_cardview_margin</item>
         <item name="android:clickable">true</item>
         <item name="cardBackgroundColor">@color/background_card</item>
         <item name="cardCornerRadius">@dimen/recommend_corner_radius</item>
+    </style>
 
+    <style name="CardView.TopicStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/topic_cardview_margin</item>
+        <item name="android:clickable">true</item>
+        <item name="cardBackgroundColor">@color/background_card</item>
+        <item name="cardCornerRadius">@dimen/topic_corner_radius</item>
     </style>
 
 

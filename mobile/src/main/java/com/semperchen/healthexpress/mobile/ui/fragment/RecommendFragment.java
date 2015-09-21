@@ -41,7 +41,7 @@ public class RecommendFragment extends Fragment {
     }
 
     private void initView() {
-        mRecyclerView = (RecyclerView) mView.findViewById(R.id.recyclerView);
+        mRecyclerView = (RecyclerView) mView.findViewById(R.id.recommend_recyclerView);
         //列数为两列
         int spanCount = 2;
         mLayoutManager = new StaggeredGridLayoutManager(
