@@ -42,7 +42,7 @@ public class TopicFragment extends Fragment {
 
     private void initView() {
         mRecyclerView = (RecyclerView) mView.findViewById(R.id.topic_recyclerView);
-        //ÁÐÊýÎªÁ½ÁÐ
+        //åˆ—æ•°ä¸ºä¸¤åˆ—
         int spanCount = 1;
         mLayoutManager = new StaggeredGridLayoutManager(
                 spanCount,
