@@ -39,13 +39,13 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:textColor="@android:color/holo_green_light"
-                                android:text="养生"/>
+                                android:text="爆炒河蟹"/>
 
                         <TextView
                                 android:id="@+id/title_tv"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="这是仅仅只是一个测试，不用太紧张"/>
+                                android:text="这仅仅只是一个测试，不用太紧张"/>
                 </LinearLayout>
 
         </LinearLayout>
